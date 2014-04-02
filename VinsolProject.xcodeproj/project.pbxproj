@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F50B9D4518E9F68F008B7CDD /* MYBlurIntroductionView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B9D4218E9F68F008B7CDD /* MYBlurIntroductionView.m */; };
+		F50B9D4618E9F68F008B7CDD /* MYIntroductionPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = F50B9D4418E9F68F008B7CDD /* MYIntroductionPanel.m */; };
+		F50B9D4A18E9F7A6008B7CDD /* ForkImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F50B9D4718E9F7A6008B7CDD /* ForkImage.png */; };
+		F50B9D4B18E9F7A6008B7CDD /* HeaderImage.png in Resources */ = {isa = PBXBuildFile; fileRef = F50B9D4818E9F7A6008B7CDD /* HeaderImage.png */; };
+		F50B9D4C18E9F7A6008B7CDD /* Toronto, ON.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F50B9D4918E9F7A6008B7CDD /* Toronto, ON.jpg */; };
+		F50B9D4E18E9F7ED008B7CDD /* TestHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50B9D4D18E9F7ED008B7CDD /* TestHeader.xib */; };
+		F50B9D5018E9F820008B7CDD /* TestPanel3.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50B9D4F18E9F820008B7CDD /* TestPanel3.xib */; };
 		F50D13EC18E91589005CECAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50D13EB18E91589005CECAA /* Foundation.framework */; };
 		F50D13EE18E91589005CECAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50D13ED18E91589005CECAA /* CoreGraphics.framework */; };
 		F50D13F018E91589005CECAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50D13EF18E91589005CECAA /* UIKit.framework */; };
@@ -21,6 +28,25 @@
 		F50D140D18E91589005CECAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50D13EF18E91589005CECAA /* UIKit.framework */; };
 		F50D141518E91589005CECAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F50D141318E91589005CECAA /* InfoPlist.strings */; };
 		F50D141718E91589005CECAA /* VinsolProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D141618E91589005CECAA /* VinsolProjectTests.m */; };
+		F50D142218E91765005CECAA /* CustomColorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50D142118E91765005CECAA /* CustomColorCell.xib */; };
+		F50D142518E91792005CECAA /* CustomColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D142418E91792005CECAA /* CustomColorCell.m */; };
+		F50D142918E91875005CECAA /* ColorName.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D142718E91875005CECAA /* ColorName.m */; };
+		F50D142D18E91925005CECAA /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50D142A18E91925005CECAA /* AddCell.xib */; };
+		F50D142E18E91925005CECAA /* AddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D142B18E91925005CECAA /* AddCell.m */; };
+		F50D143518E91948005CECAA /* ColorSectionHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50D142F18E91948005CECAA /* ColorSectionHeaderView.xib */; };
+		F50D143618E91948005CECAA /* ColorSectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D143018E91948005CECAA /* ColorSectionHeaderView.m */; };
+		F50D143718E91948005CECAA /* ColorSectionFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D143218E91948005CECAA /* ColorSectionFooterView.m */; };
+		F50D143818E91948005CECAA /* ColorSectionFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F50D143418E91948005CECAA /* ColorSectionFooterView.xib */; };
+		F50D143C18E91A0F005CECAA /* ProjectLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D143B18E91A0F005CECAA /* ProjectLayout.m */; };
+		F50D143E18E91C2F005CECAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50D143D18E91C2F005CECAA /* QuartzCore.framework */; };
+		F50D144218E92ACB005CECAA /* ILBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D144118E92ACB005CECAA /* ILBarButtonItem.m */; };
+		F50D144618E92BE7005CECAA /* UINavigationItem+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D144518E92BE7005CECAA /* UINavigationItem+Additions.m */; };
+		F50D144818E92D43005CECAA /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = F50D144718E92D43005CECAA /* settings.png */; };
+		F50D144B18E9342F005CECAA /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F50D144A18E9342F005CECAA /* SettingsViewController.m */; };
+		F5A5AEC518EBCEC8005AED99 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A5AEC318EBCEC8005AED99 /* Default@2x.png */; };
+		F5A5AEC818EBCF59005AED99 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A5AEC718EBCF59005AED99 /* Default-568h@2x.png */; };
+		F5A5AECC18EBD356005AED99 /* icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A5AECB18EBD356005AED99 /* icon-60@2x.png */; };
+		F5A5AECE18EBD431005AED99 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A5AECD18EBD431005AED99 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +60,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F50B9D4118E9F68F008B7CDD /* MYBlurIntroductionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYBlurIntroductionView.h; sourceTree = "<group>"; };
+		F50B9D4218E9F68F008B7CDD /* MYBlurIntroductionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYBlurIntroductionView.m; sourceTree = "<group>"; };
+		F50B9D4318E9F68F008B7CDD /* MYIntroductionPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MYIntroductionPanel.h; sourceTree = "<group>"; };
+		F50B9D4418E9F68F008B7CDD /* MYIntroductionPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MYIntroductionPanel.m; sourceTree = "<group>"; };
+		F50B9D4718E9F7A6008B7CDD /* ForkImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ForkImage.png; sourceTree = "<group>"; };
+		F50B9D4818E9F7A6008B7CDD /* HeaderImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeaderImage.png; sourceTree = "<group>"; };
+		F50B9D4918E9F7A6008B7CDD /* Toronto, ON.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Toronto, ON.jpg"; sourceTree = "<group>"; };
+		F50B9D4D18E9F7ED008B7CDD /* TestHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestHeader.xib; sourceTree = "<group>"; };
+		F50B9D4F18E9F820008B7CDD /* TestPanel3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestPanel3.xib; sourceTree = "<group>"; };
 		F50D13E818E91589005CECAA /* VinsolProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VinsolProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50D13EB18E91589005CECAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F50D13ED18E91589005CECAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +88,34 @@
 		F50D141218E91589005CECAA /* VinsolProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VinsolProjectTests-Info.plist"; sourceTree = "<group>"; };
 		F50D141418E91589005CECAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F50D141618E91589005CECAA /* VinsolProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VinsolProjectTests.m; sourceTree = "<group>"; };
+		F50D142118E91765005CECAA /* CustomColorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomColorCell.xib; sourceTree = "<group>"; };
+		F50D142318E91792005CECAA /* CustomColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomColorCell.h; sourceTree = "<group>"; };
+		F50D142418E91792005CECAA /* CustomColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomColorCell.m; sourceTree = "<group>"; };
+		F50D142718E91875005CECAA /* ColorName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorName.m; sourceTree = "<group>"; };
+		F50D142818E91875005CECAA /* ColorName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorName.h; sourceTree = "<group>"; };
+		F50D142A18E91925005CECAA /* AddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
+		F50D142B18E91925005CECAA /* AddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCell.m; sourceTree = "<group>"; };
+		F50D142C18E91925005CECAA /* AddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCell.h; sourceTree = "<group>"; };
+		F50D142F18E91948005CECAA /* ColorSectionHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSectionHeaderView.xib; sourceTree = "<group>"; };
+		F50D143018E91948005CECAA /* ColorSectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSectionHeaderView.m; sourceTree = "<group>"; };
+		F50D143118E91948005CECAA /* ColorSectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSectionHeaderView.h; sourceTree = "<group>"; };
+		F50D143218E91948005CECAA /* ColorSectionFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSectionFooterView.m; sourceTree = "<group>"; };
+		F50D143318E91948005CECAA /* ColorSectionFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSectionFooterView.h; sourceTree = "<group>"; };
+		F50D143418E91948005CECAA /* ColorSectionFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ColorSectionFooterView.xib; sourceTree = "<group>"; };
+		F50D143A18E91A0F005CECAA /* ProjectLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProjectLayout.h; sourceTree = "<group>"; };
+		F50D143B18E91A0F005CECAA /* ProjectLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProjectLayout.m; sourceTree = "<group>"; };
+		F50D143D18E91C2F005CECAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F50D144018E92ACB005CECAA /* ILBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ILBarButtonItem.h; sourceTree = "<group>"; };
+		F50D144118E92ACB005CECAA /* ILBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ILBarButtonItem.m; sourceTree = "<group>"; };
+		F50D144418E92BE7005CECAA /* UINavigationItem+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+Additions.h"; sourceTree = "<group>"; };
+		F50D144518E92BE7005CECAA /* UINavigationItem+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+Additions.m"; sourceTree = "<group>"; };
+		F50D144718E92D43005CECAA /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		F50D144918E9342F005CECAA /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		F50D144A18E9342F005CECAA /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		F5A5AEC318EBCEC8005AED99 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F5A5AEC718EBCF59005AED99 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F5A5AECB18EBD356005AED99 /* icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-60@2x.png"; sourceTree = "<group>"; };
+		F5A5AECD18EBD431005AED99 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50D143E18E91C2F005CECAA /* QuartzCore.framework in Frameworks */,
 				F50D13EE18E91589005CECAA /* CoreGraphics.framework in Frameworks */,
 				F50D13F018E91589005CECAA /* UIKit.framework in Frameworks */,
 				F50D13EC18E91589005CECAA /* Foundation.framework in Frameworks */,
@@ -101,6 +165,7 @@
 		F50D13EA18E91589005CECAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F50D143D18E91C2F005CECAA /* QuartzCore.framework */,
 				F50D13EB18E91589005CECAA /* Foundation.framework */,
 				F50D13ED18E91589005CECAA /* CoreGraphics.framework */,
 				F50D13EF18E91589005CECAA /* UIKit.framework */,
@@ -112,12 +177,11 @@
 		F50D13F118E91589005CECAA /* VinsolProject */ = {
 			isa = PBXGroup;
 			children = (
-				F50D13FA18E91589005CECAA /* AppDelegate.h */,
-				F50D13FB18E91589005CECAA /* AppDelegate.m */,
+				F50D142018E915A8005CECAA /* Classes */,
 				F50D13FD18E91589005CECAA /* Main.storyboard */,
-				F50D140018E91589005CECAA /* ViewController.h */,
-				F50D140118E91589005CECAA /* ViewController.m */,
 				F50D140318E91589005CECAA /* Images.xcassets */,
+				F50D144718E92D43005CECAA /* settings.png */,
+				F50D143F18E92A7F005CECAA /* Libraries */,
 				F50D13F218E91589005CECAA /* Supporting Files */,
 			);
 			path = VinsolProject;
@@ -126,6 +190,10 @@
 		F50D13F218E91589005CECAA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5A5AECD18EBD431005AED99 /* Icon.png */,
+				F5A5AECB18EBD356005AED99 /* icon-60@2x.png */,
+				F5A5AEC318EBCEC8005AED99 /* Default@2x.png */,
+				F5A5AEC718EBCF59005AED99 /* Default-568h@2x.png */,
 				F50D13F318E91589005CECAA /* VinsolProject-Info.plist */,
 				F50D13F418E91589005CECAA /* InfoPlist.strings */,
 				F50D13F718E91589005CECAA /* main.m */,
@@ -150,6 +218,79 @@
 				F50D141318E91589005CECAA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F50D142018E915A8005CECAA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50D144318E92BD2005CECAA /* Categories */,
+				F50D143918E9199C005CECAA /* CollectionViewLayout */,
+				F50D142618E91858005CECAA /* Model Classes */,
+				F50D13FA18E91589005CECAA /* AppDelegate.h */,
+				F50D13FB18E91589005CECAA /* AppDelegate.m */,
+				F50D140018E91589005CECAA /* ViewController.h */,
+				F50D140118E91589005CECAA /* ViewController.m */,
+				F50D144918E9342F005CECAA /* SettingsViewController.h */,
+				F50D144A18E9342F005CECAA /* SettingsViewController.m */,
+				F50D142318E91792005CECAA /* CustomColorCell.h */,
+				F50D142418E91792005CECAA /* CustomColorCell.m */,
+				F50D142118E91765005CECAA /* CustomColorCell.xib */,
+				F50D142C18E91925005CECAA /* AddCell.h */,
+				F50D142B18E91925005CECAA /* AddCell.m */,
+				F50D142A18E91925005CECAA /* AddCell.xib */,
+				F50D143118E91948005CECAA /* ColorSectionHeaderView.h */,
+				F50D143018E91948005CECAA /* ColorSectionHeaderView.m */,
+				F50D142F18E91948005CECAA /* ColorSectionHeaderView.xib */,
+				F50D143318E91948005CECAA /* ColorSectionFooterView.h */,
+				F50D143218E91948005CECAA /* ColorSectionFooterView.m */,
+				F50D143418E91948005CECAA /* ColorSectionFooterView.xib */,
+				F50B9D4718E9F7A6008B7CDD /* ForkImage.png */,
+				F50B9D4818E9F7A6008B7CDD /* HeaderImage.png */,
+				F50B9D4918E9F7A6008B7CDD /* Toronto, ON.jpg */,
+				F50B9D4D18E9F7ED008B7CDD /* TestHeader.xib */,
+				F50B9D4F18E9F820008B7CDD /* TestPanel3.xib */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		F50D142618E91858005CECAA /* Model Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F50D142718E91875005CECAA /* ColorName.m */,
+				F50D142818E91875005CECAA /* ColorName.h */,
+			);
+			name = "Model Classes";
+			sourceTree = "<group>";
+		};
+		F50D143918E9199C005CECAA /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				F50D143A18E91A0F005CECAA /* ProjectLayout.h */,
+				F50D143B18E91A0F005CECAA /* ProjectLayout.m */,
+			);
+			name = CollectionViewLayout;
+			sourceTree = "<group>";
+		};
+		F50D143F18E92A7F005CECAA /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				F50B9D4118E9F68F008B7CDD /* MYBlurIntroductionView.h */,
+				F50B9D4218E9F68F008B7CDD /* MYBlurIntroductionView.m */,
+				F50B9D4318E9F68F008B7CDD /* MYIntroductionPanel.h */,
+				F50B9D4418E9F68F008B7CDD /* MYIntroductionPanel.m */,
+				F50D144018E92ACB005CECAA /* ILBarButtonItem.h */,
+				F50D144118E92ACB005CECAA /* ILBarButtonItem.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		F50D144318E92BD2005CECAA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F50D144418E92BE7005CECAA /* UINavigationItem+Additions.h */,
+				F50D144518E92BE7005CECAA /* UINavigationItem+Additions.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,8 +369,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50B9D4B18E9F7A6008B7CDD /* HeaderImage.png in Resources */,
+				F50D144818E92D43005CECAA /* settings.png in Resources */,
+				F50B9D4A18E9F7A6008B7CDD /* ForkImage.png in Resources */,
 				F50D140418E91589005CECAA /* Images.xcassets in Resources */,
+				F5A5AECE18EBD431005AED99 /* Icon.png in Resources */,
+				F5A5AECC18EBD356005AED99 /* icon-60@2x.png in Resources */,
 				F50D13F618E91589005CECAA /* InfoPlist.strings in Resources */,
+				F50D142218E91765005CECAA /* CustomColorCell.xib in Resources */,
+				F50D143518E91948005CECAA /* ColorSectionHeaderView.xib in Resources */,
+				F50B9D4C18E9F7A6008B7CDD /* Toronto, ON.jpg in Resources */,
+				F5A5AEC818EBCF59005AED99 /* Default-568h@2x.png in Resources */,
+				F50B9D4E18E9F7ED008B7CDD /* TestHeader.xib in Resources */,
+				F50D143818E91948005CECAA /* ColorSectionFooterView.xib in Resources */,
+				F50D142D18E91925005CECAA /* AddCell.xib in Resources */,
+				F50B9D5018E9F820008B7CDD /* TestPanel3.xib in Resources */,
+				F5A5AEC518EBCEC8005AED99 /* Default@2x.png in Resources */,
 				F50D13FF18E91589005CECAA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,7 +405,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				F50D140218E91589005CECAA /* ViewController.m in Sources */,
+				F50D143718E91948005CECAA /* ColorSectionFooterView.m in Sources */,
 				F50D13FC18E91589005CECAA /* AppDelegate.m in Sources */,
+				F50D144B18E9342F005CECAA /* SettingsViewController.m in Sources */,
+				F50B9D4618E9F68F008B7CDD /* MYIntroductionPanel.m in Sources */,
+				F50D144218E92ACB005CECAA /* ILBarButtonItem.m in Sources */,
+				F50D142918E91875005CECAA /* ColorName.m in Sources */,
+				F50D144618E92BE7005CECAA /* UINavigationItem+Additions.m in Sources */,
+				F50D143618E91948005CECAA /* ColorSectionHeaderView.m in Sources */,
+				F50D142E18E91925005CECAA /* AddCell.m in Sources */,
+				F50B9D4518E9F68F008B7CDD /* MYBlurIntroductionView.m in Sources */,
+				F50D143C18E91A0F005CECAA /* ProjectLayout.m in Sources */,
+				F50D142518E91792005CECAA /* CustomColorCell.m in Sources */,
 				F50D13F818E91589005CECAA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -376,8 +542,7 @@
 		F50D141B18E91589005CECAA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VinsolProject/VinsolProject-Prefix.pch";
 				INFOPLIST_FILE = "VinsolProject/VinsolProject-Info.plist";
@@ -389,8 +554,7 @@
 		F50D141C18E91589005CECAA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VinsolProject/VinsolProject-Prefix.pch";
 				INFOPLIST_FILE = "VinsolProject/VinsolProject-Info.plist";
@@ -460,6 +624,7 @@
 				F50D141C18E91589005CECAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F50D141D18E91589005CECAA /* Build configuration list for PBXNativeTarget "VinsolProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +633,7 @@
 				F50D141F18E91589005CECAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

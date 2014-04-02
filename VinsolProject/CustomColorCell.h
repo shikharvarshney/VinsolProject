@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class ColorName;
+
 @interface CustomColorCell : UICollectionViewCell
+
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
+
+@property (nonatomic, weak) ColorName *colorName;
 
 @end

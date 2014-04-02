@@ -10,4 +10,6 @@
 
 @interface ProjectLayout : UICollectionViewFlowLayout
 
+- (void)makeProjectNormal;
+
 @end

@@ -7,25 +7,38 @@
 //
 
 #import "CustomColorCell.h"
+#import "ColorName.h"
 
 @implementation CustomColorCell
 
-- (id)initWithFrame:(CGRect)frame
+- (void)awakeFromNib
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
-    }
-    return self;
+    [super awakeFromNib];
+    
+    self.layer.borderWidth = 1.0f;
+    self.layer.borderColor = [[UIColor blackColor] CGColor];
+    
+    self.backgroundColor = [UIColor whiteColor];
+    self.nameLabel.text = nil;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
+- (void)prepareForReuse
 {
-    // Drawing code
+    [super prepareForReuse];
+    self.backgroundColor = [UIColor whiteColor];
+    self.nameLabel.text = nil;
+    self.colorName = nil;
 }
-*/
+
+- (void)setColorName:(ColorName *)colorName
+{
+    _colorName = colorName;
+    if (colorName != nil)
+    {
+        self.backgroundColor = colorName.color;
+        self.nameLabel.text = colorName.name;
+    }
+}
+
 
 @end
